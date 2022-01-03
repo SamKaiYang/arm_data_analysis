@@ -5,7 +5,7 @@ import statistics
 
 
 ## TODO: left right
-path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_left_right.txt'
+path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_1.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
@@ -86,7 +86,7 @@ for item in range(len(Index)):
 print("軸6 max diff:",max(A5_diff))
 
 ## TODO: up down
-path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_up_down.txt'
+path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_2.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
@@ -166,7 +166,7 @@ for item in range(len(Index)):
 print("軸6 max diff:",max(A5_diff))
 
 ## TODO: forward backward
-path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_forward_backward.txt'
+path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_3.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
@@ -246,7 +246,7 @@ for item in range(len(Index)):
 print("軸6 max diff:",max(A5_diff))
 
 ## TODO: MP 5 points movement
-path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_MP_5P.txt'
+path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_4.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
@@ -326,7 +326,7 @@ for item in range(len(Index)):
 print("軸6 max diff:",max(A5_diff))
 
 ## TODO: SW 8 points movement
-path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_SW_8P.txt'
+path = '/home/iclab/Documents/nex/Arm data analysis/211228/NRPL_LOG_5.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
