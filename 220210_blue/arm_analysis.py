@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import statistics
-
-
+import os
+absolutepath = os.path.abspath(__file__)
+fileDirectory = os.path.dirname(absolutepath)
 ## TODO: PTP
-path = '/home/iclab/Documents/nex/Arm data analysis/220210_blue/NRPL_LOG_1.txt'
+path = str(fileDirectory)+'\\NRPL_LOG_1.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
@@ -86,7 +87,7 @@ for item in range(len(Index)):
 print("軸6 max diff:",max(A5_diff))
 
 ## TODO: Line
-path = '/home/iclab/Documents/nex/Arm data analysis/220210_blue/NRPL_LOG_2.txt'
+path = str(fileDirectory)+'\\NRPL_LOG_2.txt'
 f = open(path, 'r')
 Index = []
 G0A0ActPos = []
